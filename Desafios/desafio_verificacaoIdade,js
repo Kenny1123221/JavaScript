@@ -1,0 +1,11 @@
+// Verificador de idade utilizando função, if e else
+
+function verificarIdade(idade) {
+    if (idade >= 18) {
+        return "Voçê é maior de idade!";
+    } else {
+        return "voçê é menor de idade!";
+    }
+}
+
+console.log(verificarIdade(19));
